@@ -1,67 +1,3 @@
-// let studentDetails = (myName , id, totalMarks)=>{
-//     this.myName = myName,
-//     this.id = id,
-//     this.totalMarks = totalMarks
-// }
-// const student1 = new studentDetails("amal PR",555,800);
-// const student2 = new studentDetails('syam santhosh',666,900);
-// const student3 = new studentDetails('sidharth sibi',766,850);
-// const student4 = new studentDetails('abinav',866,800);
-
-// let department1 = new Array;
-// department1.push(student1);
-// department1.push(student2);
-// department1.push(student3);
-// department1.push(student4);
-// console.log(department1);
-///////////////////////////////////////////////////////
-
-// let student = {
-// }
-// Object.assign(student, { myName: 'sam alexander', id: '369', totalMarks: 88 });
-// console.log(student);
-// let nameSplit = student.myName.split(' ');
-// let firstName = nameSplit[0];
-// let secondName = nameSplit[1];
-// console.log(firstName, secondName);
-// delete student.myName
-// var subName = {}
-// subName.firstName = firstName;
-// subName.secondName = secondName;
-// Object.assign(student, { firstName: subName.firstName, secondName: subName.secondName });
-// console.log(student);
-
-// let department = new Array;
-// department.push(student);
-// console.log(department);
-
-///////////////////////////////////////////////
-// function studentDetails(myName, id, totalMarks) {
-//     this.myName = myName;
-//     this.id = id;
-//     this.totalMarks = totalMarks;
-// }
-
-// const student1 = new studentDetails("amal PR", 555, 800);
-// const student2 = new studentDetails("syam santhosh", 666, 900);
-// const student3 = new studentDetails("sidharth sibi", 766, 850);
-// const student4 = new studentDetails("abinav", 866, 800);
-
-// let department1 = new Array;
-// department1.push(student1);
-// department1.push(student2);
-// department1.push(student3);
-// department1.push(student4);
-
-// console.log(department1);
-
-
-//////////////////////////////////////////////////////////////
-// function classObj(teacherName){
-//     name = className,
-//     teacherName = teacherName,
-//     student = []
-// }
 
 let userObject = (name, id, email, age, phoneNumber) => {
     return {
@@ -183,9 +119,6 @@ let subjectMarks = (userId ,subject, mark) => {
           console.log(removableSubject);
     student.marks
         .splice(removableSubject,1);
-
-            //   let deletedSubject = student.element.splice(subjectName,1);
-           
             
         });
        
@@ -253,51 +186,3 @@ let subjectMarks = (userId ,subject, mark) => {
 
 sortElement();
 console.log(divObj);
-
-
-
-
-
-
-
-
-
-
-  // Remove a subject from all students
-// const removeSubject = (subjectName) => {
-//     divObj.students.forEach((student) => {
-//       const marksIndex = student.marks.findIndex((mark) => mark.subject === subjectName);
-//       if (marksIndex !== -1) {
-//         student.marks.splice(marksIndex, 1);
-//       }
-//     });
-//   }
-  
-//   removeSubject('Computer');
- 
-    
-
-
-    
-//    let arrayMarks = [];
-//     if (userObject.mark.find((element)=>element.id=== userId)){
-//         return {
-//             subject: subject,
-//             mark: mark
-//         }
-       
-
-//     }
-    // return {
-    //     subject: subject,
-    //     mark: mark
-    // }
-//}
-// let std1English = subjectMarks(101,'English', 25);
-// let std1Maths = subjectMarks(101,'Maths', 48);
-// let std1Physics = subjectMarks(101,'Physics', 40);
-// let std1Chemistry = subjectMarks(101,'Chemistry', 30);
-// let std1Computer = subjectMarks(101,'Computer', 20);
-//stud1.marks.push(std1English, std1Maths, std1Physics, std1Chemistry, std1Computer);
-
-
