@@ -186,3 +186,4 @@ let subjectMarks = (userId ,subject, mark) => {
 
 sortElement();
 console.log(divObj);
+
